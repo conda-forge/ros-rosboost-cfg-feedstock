@@ -1,5 +1,7 @@
 {% set version = "1.14.7-1" %}
 {% set sha256 = "13ad3af364705f97b8d872dc3de8f12930ef448ac6119f527f36bbed82925e2c" %}
+{% set version = "1.14.7-1" %}
+{% set sha256 = "13ad3af364705f97b8d872dc3de8f12930ef448ac6119f527f36bbed82925e2c" %}
 
 package:
   name: ros-rosboost-cfg
@@ -11,8 +13,7 @@ source:
 
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 0  skip: true  # [win]
 
 requirements:
   build:
