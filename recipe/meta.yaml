@@ -1,7 +1,5 @@
 {% set version = "1.14.7-1" %}
 {% set sha256 = "13ad3af364705f97b8d872dc3de8f12930ef448ac6119f527f36bbed82925e2c" %}
-{% set version = "1.14.7-1" %}
-{% set sha256 = "13ad3af364705f97b8d872dc3de8f12930ef448ac6119f527f36bbed82925e2c" %}
 
 package:
   name: ros-rosboost-cfg
@@ -11,9 +9,9 @@ source:
   url: https://github.com/ros-gbp/ros-release/archive/release/melodic/rosboost_cfg/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
-
 build:
-  number: 0  skip: true  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
